@@ -13,6 +13,6 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('/{any}', function () {
+    return redirect('https://www.facebook.com/LES.SpolecenstviWOODS.Community');
+})->where('any', '.*');
