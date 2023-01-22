@@ -20,6 +20,7 @@
         "spatie/laravel-translatable": "^6.2"
     },
     "require-dev": {
+        "deployer/deployer": "^7.1",
         "doctrine/dbal": "^3.5",
         "fakerphp/faker": "^1.9.1",
         "laravel/pint": "^1.0",
