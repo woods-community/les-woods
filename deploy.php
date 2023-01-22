@@ -13,6 +13,8 @@ add('shared_files', []);
 add('shared_dirs', []);
 add('writable_dirs', []);
 
+task('artisan:config:cache', function () {});
+
 // Hosts
 
 host('les-woods.net')
