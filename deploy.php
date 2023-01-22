@@ -16,7 +16,7 @@ add('writable_dirs', []);
 // Hosts
 
 host('les-woods.net')
-    ->set('deploy_path', '~/les-woods.net/les-woods');
+    ->set('deploy_path', '~/les-woods');
 
 // Hooks
 
